@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.dropdowns {
+  margin: 20px;
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.svg-wrapper {
+  position: relative;
+  width: 400px; /* Adjust this value to make it smaller or larger */
+  height: 280px; /* Maintain aspect ratio with width (e.g., 16:9) */
+  border: 1px solid #ccc;
+}
+
+.svg-wrapper > div {
+  width: 100%;
+  height: 100%;
+}
+
+.svg-wrapper svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Style the dropdowns */
+.dropdowns {
+  margin: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.dropdowns select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 4px;
+}
